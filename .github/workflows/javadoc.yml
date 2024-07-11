@@ -10,7 +10,7 @@ jobs:
     env:
       # FIXME
       REPOSITORY: "booky10/packetevents"
-      BRANCH_NAME: "${{ encodeURIComponent(\"feat/javadoc-publishing\") }}"
+      BRANCH_NAME: "feat%2Fjavadoc-publishing"
 
     runs-on: ubuntu-latest
     permissions:
