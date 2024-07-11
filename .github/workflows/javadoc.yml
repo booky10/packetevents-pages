@@ -2,6 +2,7 @@ name: Javadoc Deploy
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   extract-javadoc:
